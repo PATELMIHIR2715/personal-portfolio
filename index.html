@@ -93,7 +93,16 @@
                                             <p>Birthday : <span>27 jan 2005</span></p>
                                         </div>
                                         <div class="info-item padd-15">
-                                            <p>Age : <span>18</span></p>
+                                            <p>Age : <span>
+                                                 <script>  
+                                                    var dob = new Date("01/27/2005");   
+                                                    var month_diff = Date.now() - dob.getTime();  
+                                                    var age_dt = new Date(month_diff);     
+                                                    var year = age_dt.getUTCFullYear();    
+                                                    var age = Math.abs(year - 1970);  
+                                                    document.write( age );  
+                                                </script> 
+                                            </span></p>
                                         </div>
                                         <div class="info-item padd-15">
                                             <p>Website : <span>www.patelmihirk.com</span></p>
