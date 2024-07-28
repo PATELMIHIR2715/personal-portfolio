@@ -40,9 +40,10 @@ gsap.from(".home-img,.btn", {
   scrollTrigger: {
     trigger: "home-img,.btn",
     scroll: "body",
-    // markers: true,
-    start: "top 200%",
-    scrub: 3,
+    markers: true,
+    start: "top 180%",
+    end: "top 60%",
+    scrub: 2,
   },
 });
 
@@ -64,7 +65,8 @@ gsap.from(".personal-info", {
     scroll: "body",
     // markers: true,
     start: "top 110%",
-    scrub: 3,
+    end: "top 50%",
+    scrub: 2,
   },
 });
 gsap.from(".skill-item", {
@@ -78,7 +80,8 @@ gsap.from(".skill-item", {
     scroll: "body",
     // markers: true,
     start: "top 100%",
-    scrub: 3,
+    end: "top 30%",
+    scrub: 2,
   },
 });
 gsap.from(".service_item", {
@@ -92,11 +95,12 @@ gsap.from(".service_item", {
     scroll: "#services",
     // markers: true,
     start: "top 100%",
+    end: "top 30%",
     // end: "top 150%",
-    scrub: 3,
+    scrub: 2,
   },
 });
-gsap.from(".education,.experiance,.service_item ,.contect-info", {
+gsap.from(".education,.experiance,.contect-info", {
   scale: 0,
   duration: 1,
   //   delay: 0,
@@ -105,8 +109,9 @@ gsap.from(".education,.experiance,.service_item ,.contect-info", {
     trigger: ".education,.experiance,.service_item ,.contect-info",
     scroll: "#about",
     // markers: true,
-    start: "top 250%",
-    scrub: 3,
+    start: "top 100%",
+    end: "top 80%",
+    scrub: 2,
   },
 });
 gsap.from(".about-title ", {
@@ -118,8 +123,8 @@ gsap.from(".about-title ", {
     trigger: ".about-title ",
     scroll: "body",
     // markers: true,
-    start: "top 100%",
-    scrub: 3,
+    start: "top 130%",
+    scrub: 2,
   },
 });
 gsap.from(" .services-title", {
@@ -132,7 +137,7 @@ gsap.from(" .services-title", {
     scroll: "#services",
     // markers: true,
     start: "top 100%",
-    scrub: 3,
+    scrub: 2,
   },
 });
 gsap.from(" .title", {
@@ -158,7 +163,7 @@ gsap.from(".mail-title ", {
     scroll: "#mail",
     // markers: true,
     start: "top 100%",
-    scrub: 3,
+    scrub: 2,
   },
 });
 
