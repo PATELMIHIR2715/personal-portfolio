@@ -40,10 +40,10 @@ gsap.from(".home-img,.btn", {
   scrollTrigger: {
     trigger: "home-img,.btn",
     scroll: "body",
-    
+    markers: true,
     start: "top 180%",
     end: "top 60%",
-    scrub: 2,
+    // scrub: 2,
   },
 });
 
@@ -66,7 +66,7 @@ gsap.from(".personal-info", {
     // markers: true,
     start: "top 110%",
     end: "top 50%",
-    scrub: 2,
+    // scrub: 2,
   },
 });
 gsap.from(".skill-item", {
@@ -81,7 +81,7 @@ gsap.from(".skill-item", {
     // markers: true,
     start: "top 100%",
     end: "top 30%",
-    scrub: 2,
+    // scrub: 2,
   },
 });
 gsap.from(".service_item", {
@@ -97,7 +97,7 @@ gsap.from(".service_item", {
     start: "top 100%",
     end: "top 30%",
     // end: "top 150%",
-    scrub: 2,
+    // scrub: 2,
   },
 });
 gsap.from(".education,.experiance,.contect-info", {
@@ -111,7 +111,7 @@ gsap.from(".education,.experiance,.contect-info", {
     // markers: true,
     start: "top 100%",
     end: "top 80%",
-    scrub: 2,
+    // scrub: 2,
   },
 });
 gsap.from(".about-title ", {
@@ -124,7 +124,7 @@ gsap.from(".about-title ", {
     scroll: "body",
     // markers: true,
     start: "top 130%",
-    scrub: 2,
+    // scrub: 2,
   },
 });
 gsap.from(" .services-title", {
@@ -137,16 +137,16 @@ gsap.from(" .services-title", {
     scroll: "#services",
     // markers: true,
     start: "top 100%",
-    scrub: 2,
+    // scrub: 2,
   },
 });
-gsap.from(" .title", {
+gsap.from(" .ctitle", {
   scale: 0,
   duration: 1,
   delay: 0.5,
   opacity: 0,
   scrollTrigger: {
-    trigger: ".title ",
+    trigger: ".ctitle ",
     scroll: "#contect",
     // markers: true,
     start: "top 100%",
@@ -163,7 +163,7 @@ gsap.from(".mail-title ", {
     scroll: "#mail",
     // markers: true,
     start: "top 100%",
-    scrub: 2,
+    // scrub: 2,
   },
 });
 
