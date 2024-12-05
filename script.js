@@ -40,7 +40,7 @@ gsap.from(".home-img,.btn", {
   scrollTrigger: {
     trigger: "home-img,.btn",
     scroll: "body",
-    markers: true,
+    // markers: true,
     start: "top 180%",
     end: "top 60%",
     // scrub: 2,
