@@ -65,6 +65,17 @@ Feel free to reach out to me:
 
 ---
 
+## 📷 Screen Shots
+
+![Dashboard ](https://github.com/PATELMIHIR2715/personal-portfolio/blob/1e240f21c8f00c3245bff0efbacf6f5eb25f91ce/images/Screenshot%20(36).png)
+![Dashboard ](https://github.com/PATELMIHIR2715/personal-portfolio/blob/1e240f21c8f00c3245bff0efbacf6f5eb25f91ce/images/Screenshot%20(37).png)
+![Dashboard ](https://github.com/PATELMIHIR2715/personal-portfolio/blob/1e240f21c8f00c3245bff0efbacf6f5eb25f91ce/images/Screenshot%20(38).png)
+![Dashboard ](https://github.com/PATELMIHIR2715/personal-portfolio/blob/1e240f21c8f00c3245bff0efbacf6f5eb25f91ce/images/Screenshot%20(39).png)
+![Dashboard ](https://github.com/PATELMIHIR2715/personal-portfolio/blob/1e240f21c8f00c3245bff0efbacf6f5eb25f91ce/images/Screenshot%20(40).png)
+![Dashboard ](https://github.com/PATELMIHIR2715/personal-portfolio/blob/1e240f21c8f00c3245bff0efbacf6f5eb25f91ce/images/Screenshot%20(41).png)
+![Dashboard ](https://github.com/PATELMIHIR2715/personal-portfolio/blob/1e240f21c8f00c3245bff0efbacf6f5eb25f91ce/images/Screenshot%20(42).png)
+---
+
 ## 📌 Acknowledgements
 
 This portfolio is a culmination of my learning journey in web development. Special thanks to the open-source community and various online resources that have been instrumental in my growth.
